@@ -1,0 +1,7 @@
+Error while activating virtual environment in Windows 10 PowerShell "  ???
+
+If you are running Windows, then navigate to <venv>\Scripts, where <venv> is the name of your virtual environment. Then, execute the following command:
+
+set-Executionpolicy -Executionpolicy Remotesigned -Scope CurrentUser
+
+Type .\activate and press return. You will now be able to use your virtual environment.
